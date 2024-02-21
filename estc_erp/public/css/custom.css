@@ -315,13 +315,6 @@ body.custom-bd{
 .auth-content .form-group #login_password{
     padding-right: 75px;
 }
-.auth-content .form-group .field-icon.email-icon,
-.auth-content .form-group .field-icon.password-icon
-{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
 .auth-content .form-group{
     position: relative
 }
