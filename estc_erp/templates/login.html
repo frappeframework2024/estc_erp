@@ -16,7 +16,7 @@
 	{% block favicon %}
 	<link
 		rel="shortcut icon"
-		href="{{ (favicon or "/assets/frappe/images/frappe-favicon.svg") | abs_url }}"
+		href="{{ (favicon or "/assets/estc_erp/images/frappe-favicon.svg") | abs_url }}"
 		type="image/x-icon"
 	>
 	{% endblock %}
@@ -48,7 +48,7 @@
 			<style>{{ colocated_css }}</style>
 		{%- endif %}
 	{%- endblock -%}
-	<link type="text/css" rel="stylesheet" href="/assets/frappe/css/custom.css">
+	<link type="text/css" rel="stylesheet" href="/assets/estc_erp/css/custom.css">
 	<script>
 		window.frappe = {};
 		frappe.ready_events = [];
